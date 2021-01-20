@@ -1,0 +1,31 @@
+.title{ 
+  text-align:end; 
+  width: 210px; 
+  font-size: 30px;
+  color:rgb(5, 5, 5); 
+  } 
+
+  input[type="button"] 
+  { 
+      background-color: #020702;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+     
+  } 
+  
+
+  input[type="text"] 
+  { 
+  background-color:w#020e02; 
+  padding: 15px;
+  border-right-width: 0px;
+  border: solid #000801 4px; 
+  width:88% 
+  } 

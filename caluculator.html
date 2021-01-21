@@ -11,31 +11,31 @@
     <div class = title >Santosh's Calculator</div> 
       <table border =5> 
          <tr> 
-            <td colspan="5" ><input type="text" id="result" placeholder="0" onkeypress="isInputNumber(event)"/></td> 
+            <td colspan="5" ><input type="text"  id="result" placeholder="0" onkeypress="isInputNumber(event)"/></td> 
          </tr> 
          <tr > 
-            <td><input  value="7" type="button" onclick="display('1')"/> </td> 
-            <td><input  value="8" type="button" onclick="display('2')"/> </td> 
-            <td><input  value="9" type="button" onclick="display('3')"/> </td>
-            <td><input  value="c" type="button" onclick="clr()"/> </td> 
+            <td><button  value="7"  onclick="display('7')">7</button> </td> 
+            <td><button  value="8"  onclick="display('8')">8</button> </td> 
+            <td><button  value="9"  onclick="display('9')">9</button> </td>
+            <td><button  id ="cls" onclick="clr()">c</button> </td> 
          </tr> 
          <tr> 
-            <td><input  value="4" type="button" onclick="display('4')"/> </td> 
-            <td><input  value="5" type="button" onclick="display('5')"/> </td> 
-            <td><input  value="6" type="button" onclick="display('6')"/> </td> 
-            <td><input  value="-" type="button" onclick="display('-')"/> </td> 
+            <td><button  value="4"  onclick="display('4')">4</button> </td> 
+            <td><button  value="5"  onclick="display('5')">5</button> </td> 
+            <td><button  value="6"  onclick="display('6')">6</button> </td> 
+            <td><button  value="-"  onclick="display('-')">-</button> </td> 
          </tr> 
          <tr> 
-            <td><input  value="1" type="button" onclick="display('7')"/> </td> 
-            <td><input  value="2" type="button" onclick="display('8')"/> </td> 
-            <td><input  value="3" type="button" onclick="display('9')"/> </td> 
-            <td><input  value="+" type="button" onclick="display('+')"/> </td> 
+            <td><button  value="1"  onclick="display('1')">1</button> </td> 
+            <td><button  value="2"  onclick="display('2')">2</button> </td> 
+            <td><button  value="3"  onclick="display('3')">3</button> </td> 
+            <td><button  value="+"  onclick="display('+')">+</button> </td> 
          </tr> 
          <tr> 
-            <td><input  value="." type="button" onclick="display('.')"/> </td> 
-            <td><input  value="0" type="button" onclick="display('0')"/> </td> 
-            <td><input  value="*" type="button" onclick="display('*')"/> </td>
-            <td><input  value="=" type="button" onclick="solve()"/> </td>  
+            <td><button  value="."  onclick="display('.')">.</button> </td> 
+            <td><button  value="0"  onclick="display('0')">0</button> </td> 
+            <td><button  value="*"  onclick="display('*')">*</button> </td>
+            <td><button  value="="  onclick="solve()">=</button>
          </tr> 
       </table> 
    </body> 

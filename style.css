@@ -1,13 +1,21 @@
 .title{ 
-  text-align:end; 
+  text-align: left; 
   width: 210px; 
   font-size: 30px;
   color:rgb(5, 5, 5); 
   } 
-
-  input[type="button"] 
+  
+  input[type="text"] 
   { 
-      background-color: #020702;
+  background-color:w#020e02; 
+  padding: 15px;
+  border-right-width: 0px;
+  border: solid #000801 4px; 
+  width:88% 
+  }  
+
+  button{
+    background-color: #020702;
       border: none;
       color: white;
       padding: 15px 32px;
@@ -17,15 +25,4 @@
       font-size: 16px;
       margin: 4px 2px;
       cursor: pointer;
-
-  } 
-
-
-  input[type="text"] 
-  { 
-  background-color:w#020e02; 
-  padding: 15px;
-  border-right-width: 0px;
-  border: solid #000801 4px; 
-  width:88% 
-  }  
+  }
